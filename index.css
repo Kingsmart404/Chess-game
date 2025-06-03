@@ -1,0 +1,94 @@
+/* .Ludo{
+   width: 50vw;
+   height: 30vh;
+   display: grid ;
+   grid-template-columns:auto auto auto ;
+   justify-content: center;
+   gap: 20px; */
+   
+
+   /* .Ludo{
+      display: grid;
+      grid-template-columns: 100px 100px 100px;
+      grid-template-rows: 100px 100px 100px;
+      justify-content: center;
+       
+   
+
+   }*/
+.Game{
+   display: grid;
+   align-items: center;
+   
+   }
+h1{
+   
+  text-align: center;
+}
+
+
+
+/* echo "# Chess-game" >> README.md */
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Kingsmart404/Chess-game.git
+git push -u origin main
+
+  .Chesse{
+   width: 50vw;
+   height: 60vh;
+      display: grid;
+      grid-template-columns: repeat(9,1fr) ;
+      grid-template-rows:repeat(auto,1fr) ; 
+      justify-self: center;
+      border: 5px solid black;
+      border-radius: 1em;
+
+
+      
+  }
+.black{
+   background-color: black;
+   
+   
+}
+.white{
+   /* background-image: url(./images/nature2.jpg); */
+   background-color: blanchedalmond !important;
+   
+}
+
+    
+input{
+   padding: 10px;
+   margin: 2em;
+   border-radius: 3em;
+   align-items: center;
+   
+   
+   
+}
+ button{
+   padding: .5em;
+   margin-left: 8em;
+
+
+ }
+ .container{
+   background-color: aqua;
+   width: 30vw;
+   height: 40vh;
+   margin: auto;
+   border-radius: 2em ;
+   text-align: center;
+   box-shadow: gold;
+ }
+ .Ludo{
+   width: 50vw;
+   height: 40vh;
+   border: 2px solid black;
+   display: grid;
+
+ }
