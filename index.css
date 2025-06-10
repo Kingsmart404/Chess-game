@@ -28,13 +28,6 @@ h1{
 
 
 
-/* echo "# Chess-game" >> README.md */
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/Kingsmart404/Chess-game.git
-git push -u origin main
 
   .Chesse{
    width: 50vw;
@@ -85,10 +78,17 @@ input{
    text-align: center;
    box-shadow: gold;
  }
- .Ludo{
-   width: 50vw;
-   height: 40vh;
-   border: 2px solid black;
-   display: grid;
+ 
 
+ 
+ .Ludo{
+   width: 60vw;
+   height: 60vh;
+   border: 2px solid black;
+   justify-content: center;
+   margin-left: 20%; 
+   border-radius: 05em;
+   display: flex;
+  
  }
+ 

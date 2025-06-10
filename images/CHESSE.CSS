@@ -1,0 +1,44 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.Container{
+    width: 85vw;
+    height: 80vh;
+
+}
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: dotted;
+    text-align: center;
+}
+
+.middle-container{
+    display: flex;
+   flex-direction: row;
+   height:12.5%;
+   margin-left: 10%;
+   border-style: dotted;
+  
+
+}
+.white{
+    border: 1px solid black;
+    flex-basis: 12.5%;
+}
+.white i{
+display: flex;
+justify-content: center;
+padding-top: 15px;
+font-size: x-large;
+
+
+}
+
+.middle-container:nth-child(even) .white:nth-child(odd){
+    background-color: black;
+}
+.middle-container:nth-child(odd) .white:nth-child(even){
+ background-color: black;
+}
